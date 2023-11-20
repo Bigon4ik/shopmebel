@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {FaTrash} from 'react-icons/fa';
 
 function Order(props:any) {
@@ -10,10 +10,7 @@ function Order(props:any) {
             <h2>{props.item.title}</h2>
             <p>{props.item.price}$</p>
             <FaTrash onClick={()=>{props.deleteItemFromCart(props.item.id,props.item.price)}} className={'deleteItem'}/>
-
          </div>
-
-
     );
 }
 

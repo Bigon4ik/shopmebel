@@ -9,7 +9,6 @@ import ShowFullItem from './components/ShowFullItem/ShowFullItem';
 
 
 
-// @ts-ignore
 function App() {
 
 
